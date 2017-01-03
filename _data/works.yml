@@ -1,0 +1,28 @@
+- name: IBM Community Radio
+  link: /ibm-radio
+  description: "Often, I think about the future — The future of our planet, the future of humanity, my future, etc. Sometimes these thoughts resolve into small one-off expressions in the form of a sketch, and other times I begin larger projects that express ideal future states for a given topic. At the moment I'm thinking a lot about death, Mars and space travel, new movements in interface design, cybernetics, and the union of hardware and software design into a cohesive whole."
+  img-link: images/radio.png
+  ratio: 4x3
+  display: dt
+
+- name: Tumblr
+  link: /tumblr
+  description: "Often, I think about the future — The future of our planet, the future of humanity, my future, etc. Sometimes these thoughts resolve into small one-off expressions in the form of a sketch, and other times I begin larger projects that express ideal future states for a given topic. At the moment I'm thinking a lot about death, Mars and space travel, new movements in interface design, cybernetics, and the union of hardware and software design into a cohesive whole."
+  img-link: images/tumblr.gif
+  ratio: 1x1
+  display: dt
+
+- name:
+  link:
+  description:
+  img-link:
+  ratio: 4x3
+  display: dn
+  noshow: dn
+
+- name: IBM Presence Insights
+  link: /ibm-pi
+  description: "Often, I think about the future — The future of our planet, the future of humanity, my future, etc. Sometimes these thoughts resolve into small one-off expressions in the form of a sketch, and other times I begin larger projects that express ideal future states for a given topic. At the moment I'm thinking a lot about death, Mars and space travel, new movements in interface design, cybernetics, and the union of hardware and software design into a cohesive whole."
+  img-link: images/pi.gif
+  ratio: 4x3
+  display: dt
