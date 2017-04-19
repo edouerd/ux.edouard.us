@@ -33,9 +33,25 @@
   z-index: -999;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(top, #fffaf5 0%,#ffffff 100%);
-  background: -moz-linear-gradient(top, #fffaf5 0%, #ffffff 100%);
-  background: -webkit-linear-gradient(top, #fffaf5 0%,#ffffff 100%);
+  background-image: linear-gradient(top, #FDE9EB 0%,#ffffff 100%);
+  background: -moz-linear-gradient(top, #FDE9EB 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #FDE9EB 0%,#ffffff 100%);
   background-repeat: repeat-x;
   position: absolute;
+}
+
+@media screen and (min-width: 95em) {
+    .f2-xl {
+        font-size: 3rem;
+    }
+    .w-90-xl {
+        width: 90%;
+    }
+    .mw9-xl {
+      max-width: 96rem;
+    }
+}
+
+.project-cover-text {
+  text-shadow: 0.5px 0.5px 1px #666;
 }
