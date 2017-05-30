@@ -4,36 +4,13 @@ title: Édouard Urcades
 permalink: /
 ---
 
-<section class="center w-90-ns w-70-ns w-90-xl mw8 mw9-xl mt4 mh4 mv5-ns f6 f3-ns f2-xl">
-
-  <p class="lh-copy i ttu ph1 ph2-ns">Projects & Works ⤵︎</p>
+<section class="center w-90 w-70-ns w-90-xl mw8 mw9-xl mt4 mh4 mv5-ns f6 f3-vw f2-xl">
 
   <section class="fl w-100 mb4">
-    {% for feature in site.data.works %}
-    <a href="{{ feature.link }}" class="link">
-      <div class="fl w-100 w-50-m w-50-l pa1 pa2-m pa2-l">
-        <div class="aspect-ratio aspect-ratio--{{ feature.ratio }} {{ feature.noshow }}">
-          <span style="background-image:url({{ feature.img-link }});" class="flex items-center {{ feature.display }} hide-child cover bg-center aspect-ratio--object"><p class="w-100 center child f2 tc white flare project-cover-text">{{ feature.name }}</p></span>
-        </div>
-      </div>
-    </a>
-    {% endfor %}
-
-    <p class="cf lh-copy i ttu ph1 ph2-ns pt5">Related Practices ⤵︎</p>
-
-    {% for feature in site.data.related %}
-    <a href="{{ feature.link }}" class="link">
-      <div class="fl w-100 w-50-m w-50-l pa1 pa2-m pa2-l">
-        <div class="aspect-ratio aspect-ratio--{{ feature.ratio }}">
-          <span style="background-image:url({{ feature.img-link }});" class="flex items-center dt hide-child cover bg-center aspect-ratio--object"><p class="w-100 center child f2 tc white flare">{{ feature.name }}</p></span>
-        </div>
-      </div>
-    </a>
-    {% endfor %}
+    {% include 1works.html %}
+    {% include 2related.html %}
   </section>
-
-  <p class="lh-copy i ttu ph1 ph2-ns">I'm a <a href="http://ux.edouard.us/" class="black link hover-black">physical–digital product designer</a> né <a href="http://id.edouard.us/" class="black link hover-black">industrial designer</a> in NYC.</p>
-  <p class="lh-copy i ttu ph1 ph2-ns pb5">If you'd like, <a href="mailto:mail@edouard.us" class="black-40 link hover-black">send a letter</a> or <a href="https://twitter.com/edouerd" class="black-40 link hover-black">@ me</a>. Thanks for visiting, stay a while.</p>
+  {% include 3contact.html %}
 
   {% include header.html %}
 

@@ -1,0 +1,13 @@
+<p class="lh-copy pl2 mt0 mb4">
+  Projects and Works ⤵︎
+</p>
+
+{% for feature in site.data.works %}
+<a href="{{ feature.link }}" class="link">
+  <div class="fl w-100 w-50-m w-50-l pa2">
+    <div class="aspect-ratio aspect-ratio--{{ feature.ratio }} {{ feature.noshow }}">
+      <span style="background-image:url({{ feature.img-link }});" class="flex items-center {{ feature.display }} hide-child cover bg-center aspect-ratio--object"><p class="w-100 center child f2 tc white flare project-cover-text">{{ feature.name }}</p></span>
+    </div>
+  </div>
+</a>
+{% endfor %}
